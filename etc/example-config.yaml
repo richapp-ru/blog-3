@@ -1,0 +1,20 @@
+textSource:
+    adapterEndpoint: ipc:///tmp/adapter.socket
+
+adapter:
+    adapterEndpoint: ipc:///tmp/adapter.socket
+    collectorEndpoint: ipc:///tmp/collector.socket
+
+jsonSource:
+    collectorEndpoint: ipc:///tmp/collector.socket
+
+collector:
+    collectorEndpoint: ipc:///tmp/collector.socket
+
+api:
+    apiEndpoint: ipc:///tmp/api.socket
+    notifyEndpoint: ipc:///tmp/notify.socket
+
+client:
+    apiEndpoint: ipc:///tmp/api.socket
+    notifyEndpoint: ipc:///tmp/notify.socket
